@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "strict": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "resolveJsonModule": true,
+    "sourceMap": true
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/**/*.tsx"
+  ]
+
+  
+}
